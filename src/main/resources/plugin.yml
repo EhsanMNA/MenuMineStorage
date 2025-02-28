@@ -1,0 +1,19 @@
+name: MenuMineStorage
+version: '1.0-SNAPSHOT'
+main: me.ehsanmna.menuMineStorage.MenuMineStorage
+api-version: 1.13
+softdepend:
+  - MenuMine
+commands:
+  storage:
+    description: Manage player storage
+    usage: /<command> [create <id> <size>|<id>]
+    aliases:
+      - menuminestorage
+  storageadmin:
+    description: Admin commands for storage
+    usage: /<command> <unlock|view> <player> <id>
+permissions:
+  storage.admin:
+    description: Allows admin storage commands
+    default: op

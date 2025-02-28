@@ -1,0 +1,30 @@
+storages:
+  storage1:
+    size: 27
+    permission: "storage.storage1"
+  storage2:
+    size: 27
+    permission: "storage.storage2"
+  storage3:
+    size: 27
+    permission: "storage.storage3"
+  storage4:
+    size: 27
+    permission: "storage.storage4"
+  storage5:
+    size: 54
+    permission: "storage.storage5"
+  storage6:
+    size: 54
+    permission: "storage.storage6"
+
+messages:
+  only-players: "&cOnly players can use this command!"
+  storage-locked: "&cThis storage is locked and you don't have permission!"
+  storage-not-found: "&cStorage '{id}' not found!"
+  no-permission: "&cYou don't have permission!"
+  admin-usage: "&cUsage: /storageadmin <unlock|view> <player> <id>"
+  player-not-found: "&cPlayer '{player}' not found!"
+  player-no-data: "&cNo storage data found for '{player}'!"
+  storage-unlocked: "&aUnlocked storage '{id}' for {player}!"
+  storage-unlock-failed: "&cFailed to unlock storage '{id}'!"

@@ -1,0 +1,17 @@
+rows: 3
+title: "&6Storage Menu"
+
+items:
+  unlocked:
+    material: "CHEST"
+    name: "&a{id} &7({size} slots)"
+    lore:
+      - "&7Click to open this storage"
+      - "&7Permission: &f{permission}"
+    glow: true
+  locked:
+    material: "BARRIER"
+    name: "&c{id} &7({size} slots)"
+    lore:
+      - "&cLocked - Ask an admin to unlock"
+      - "&7Permission: &f{permission}"
